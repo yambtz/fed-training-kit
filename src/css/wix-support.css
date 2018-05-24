@@ -293,6 +293,10 @@ body {
     margin: 0;
 }
 
+.category-list .category:not(:nth-child(-n + 20)) {
+    display: none;
+}
+
 .category-name {
     color: black;
     font-size: 20px;
@@ -625,6 +629,11 @@ body {
         flex: 0 0 auto;
     }
     
+
+    .category-list .category:not(:nth-child(-n + 20)) {
+        display: none;
+    }
+
     .category-name {
         color: black;
         font-size: 1.15em;
